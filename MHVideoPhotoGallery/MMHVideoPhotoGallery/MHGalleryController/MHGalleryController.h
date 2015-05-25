@@ -77,6 +77,8 @@
 
 @interface UIViewController(MHGalleryViewController)<UIViewControllerTransitioningDelegate>
 
+-(void)prepareForPresentMHGalleryController:(MHGalleryController *)galleryController;
+
 /**
  *  For presenting MHGalleryController.
  *
